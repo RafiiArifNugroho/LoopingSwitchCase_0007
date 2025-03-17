@@ -27,3 +27,14 @@ for (n = 5; n > 0; n--)
             cout
         << " Nilai terakhir = " << n;
 cout << endl;
+
+while (n < 7)
+{
+    cout << " Nilai n = " << n << endl;
+    n = rand() % 10;
+    perulanganwhile++;
+}
+cout << " Jumlah perulangan = " << perulanganwhile << endl;
+cout << " Nilai n terakhir = " << n << endl;
+
+cout << " Perulangan do while" << endl;
